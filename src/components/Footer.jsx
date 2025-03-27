@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="bg-gray-900 text-white py-8">
+    <div className="bg-gray-900 w-full text-white py-8">
     <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
       
       {/* Section 1: Company Info */}
@@ -54,7 +54,7 @@ function Footer() {
 
     {/* Copyright Section */}
     <div className="text-center text-sm text-gray-500 mt-8 border-t border-gray-700 pt-4">
-      © {new Date().getFullYear()} Foodie. All rights reserved.
+      © 2025 Master Chef. All rights reserved.
     </div>
   </div>
   )

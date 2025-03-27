@@ -7,7 +7,6 @@ import Error from "./Error";
 import Footer from "./Footer";
 import Profile from "./Profile";
 import Menu from "./Menu";
-
 function Headers() {
   return (
     <>

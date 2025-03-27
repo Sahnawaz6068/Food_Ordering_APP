@@ -5,7 +5,7 @@ function ResCard ({ name, imageId, cuisines, avgRating}) {
     <>
       <div className="h-74 w-60 bg-gray-100  m-4 rounded-md cursor-pointer">
         <img
-          className="bg-red-300 h-36 w-54 ml-3 mt-3 rounded-lg"
+          className="bg-red-300 h-36 w-54 ml-3 mt-3 rounded-lg hover:scale-110 transition-transform duration-300"
           src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${imageId}`}
           alt=""
         />
